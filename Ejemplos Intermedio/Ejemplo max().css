@@ -1,0 +1,13 @@
+.Ejemplo1{
+    width: max(200px, 50%); /* Resultado: El valor máximo entre 200px y el 50% del 
+ancho disponible */
+}
+.Ejemplo2{
+    height: max(100px, 150px, 50%); /* Resultado: El valor máximo entre 100px, 
+150px y el 50% del alto disponible */
+}
+
+.Ejemplo3{
+    font-size: max(16px, 1.2em); /* Resultado: El valor máximo entre 16px y 1.2 
+veces el tamaño de fuente actual */
+}

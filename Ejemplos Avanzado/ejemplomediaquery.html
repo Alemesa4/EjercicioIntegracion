@@ -1,0 +1,28 @@
+<html>
+<head>
+ <meta charset="utf-8">
+<style>
+    .click:after {
+ content:"En pantalla grande";
+}
+@media (max-width: 1024px) {
+ .click:after {
+ content:"Tablet";
+ }
+}
+@media (max-width: 480px) {
+ .click:after {
+ content:"Movil";
+ }
+}
+</style>
+</head>
+<body>
+    <p><a href="../index.html"><button>Volver al inicio</button></a></p>
+
+<h3>Media queries</h3>
+<div class="click">
+ <img src="https://www.eniun.com/wp-content/uploads/eniun-icon-user-experience.svg"><br>
+</div>
+</body>
+</html>

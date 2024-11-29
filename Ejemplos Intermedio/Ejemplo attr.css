@@ -1,0 +1,11 @@
+.Ejemplo1{
+    width: attr(data-width);
+}
+.Ejemplo2{
+    height: calc(attr(data-height) * 2);
+
+}
+.Ejemplo3{
+    content: attr(data-content);
+
+}

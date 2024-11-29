@@ -1,0 +1,10 @@
+.Ejemplo1{
+    width: round(3.7rem); /* Resultado: 4rem */
+}
+.Ejemplo2{
+    padding: round(-2.3em); /* Resultado: -2em */
+}
+.Ejemplo3{
+    font-size: round(1.2345, 2); /* Resultado: 1.23 */
+
+}

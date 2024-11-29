@@ -1,0 +1,17 @@
+.Ejemplo1{
+    width: calc(100px + 20px); /* Resultado: 120px */
+
+}
+.Ejemplo2{
+    width: calc(80% - 10px); /* Resultado: El 80% del ancho disponible menos 10px */
+
+}
+
+.Ejemplo3{
+    width: calc(2 * 50%); /* Resultado: El doble del 50% del ancho disponible */
+
+}
+.Ejemplo4{
+    width: calc((100px + 10%) / 3); /* Resultado: El resultado de la operación 
+combinada */
+}

@@ -1,0 +1,14 @@
+.Ejemplo1{width: min(200px, 50%); /* Resultado: El valor mínimo entre 200px y el 50% del 
+ancho disponible */
+}
+
+.Ejemplo2{
+    height: min(100px, 150px, 50%); /* Resultado: El valor mínimo entre 100px, 
+150px y el 50% del alto disponible */
+
+}
+.Ejemplo3{
+    font-size: min(10px, 1.2em); /* Resultado: El valor mínimo entre 10px y 1.2 
+veces el tamaño de fuente actual */
+
+}
